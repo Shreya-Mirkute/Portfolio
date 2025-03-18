@@ -146,25 +146,177 @@
             <!--===== WORK =====-->
             <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
+                <style>
+                    * {
+                      box-sizing: border-box;
+                    }
+                    
+                    body {
+                      background-color: #f1f1f1;
+                      padding: 20px;
+                      font-family: Arial;
+                    }
+                    
+                    /* Center website */
+                    .main {
+                      max-width: 1000px;
+                      margin: auto;
+                    }
+                    
+                    h1 {
+                      font-size: 50px;
+                      word-break: break-all;
+                    }
+                    
+                    .row {
+                      margin: 8px -16px;
+                    }
+                    
+                    /* Add padding BETWEEN each column */
+                    .row,
+                    .row > .column {
+                      padding: 8px;
+                    }
+                    
+                    /* Create four equal columns that floats next to each other */
+                    .column {
+                      float: left;
+                      width: 50%;
+                    }
+                    
+                    /* Clear floats after rows */ 
+                    .row:after {
+                      content: "";
+                      display: table;
+                      clear: both;
+                    }
+                    
+                    /* Content */
+                    .content {
+                      background-color: white;
+                      padding: 10px;
+                    }
+                    
+                    /* Responsive layout - makes a two column-layout instead of four columns */
+                    @media screen and (max-width: 900px) {
+                      .column {
+                        width: 50%;
+                      }
+                    }
+                    
+                    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+                    @media screen and (max-width: 600px) {
+                      .column {
+                        width: 100%;
+                      }
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    <!-- MAIN (Center website) -->
+                    <div class="main">
+                    
+                    
+                    <hr>
+                    
+                    <h2>PORTFOLIO</h2>
+                    <p></p>
+                    
+                    <!-- Portfolio Gallery Grid -->
+                    <div class="row">
+                      <div class="column">
+                        <div class="content">
+                          <img src="assets/img/film.jpeg" alt="film" style="width:100%">
+                    
+                          <h3>Film Studies</h3>
+                          <p></p>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="content">
+                        <img src="assets/img/mockup2-01.jpg" alt="packaging" style="width:100%">
+                          <h3>Illustration</h3>
+                          <p></p>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="content">
+                        <img src="assets/img/book mkup cv.jpg" alt="Nature" style="width:100%">
+                          <h3>Print Design</h3>
+                          <p></p>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="content">
+                        <img src="assets/img/home 5.png" alt="blender" style="width:100%">
+                          <h3>Blender</h3>
+                          <p></p>
+                        </div>
+                      </div>
+                      
+                      for dp
+
+                      <hr>
+                    
+                    <h2>
+DESIGN PROJECT: CHILDHOOD OBESITY</h2>
+                    <p></p>
+                    
+                    <!-- Portfolio Gallery Grid -->
+                    <div class="row">
+                      <div class="column">
+                        <div class="content">
+                          <img src="assets/img/kitkat poster-04.jpg" alt="kitkat" style="width:100%">
+                    
+                          <h3>Kitkat poster </h3>
+                          <p></p>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="content">
+                        <img src="assets/img/pepsi poster ai-04-04.jpg" alt="pepsi" style="width:100%">
+                          <h3>Pepsi poster</h3>
+                          <p></p>
+                        </div>
+                      </div>
+
+                    <!-- END GRID -->
+                    </div>
+                    
+                    <div class="content">
+                      <img src="assets/img/THUMS DOWN-03.jpg" alt="Bear" style="width:100%">
+                      <h3>Thumbs down</h3>
+                      <p></p>
+                      <p></p>
+                    </div>
+                    
+                    <!-- END MAIN -->
+                    </div>
+                    <hr>
+                    <h2>
+                        PHOTOGRAPHY</h2>
+                    
 
                 <div class="work__container bd-grid">
                     <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
+                        <img src="assets/img/WhatsApp Image 2023-01-27 at 10.22.52 PM.jpeg" alt="fire">
+                        
                     </a>
                     <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
+                        <img src="assets/img/WhatsApp Image 2023-01-27 at 10.22.51 PM.jpeg" alt="sky">
                     </a>
                     <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
+                        <img src="assets/img/WhatsApp Image 2023-01-30 at 5.16.30 PM.jpeg" alt="temple">
                     </a>
                     <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
+                        <img src="assets/img/IMG_8770.JPG" alt="swing">
                     </a>
                     <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
+                        <img src="assets/img/IMG_8818.JPG" alt="beach">
                     </a>
                     <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
+                        <img src="assets/img/IMG_8792.JPG" alt="food">
                     </a>
                 </div>
             </section>
@@ -172,6 +324,7 @@
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
+                
 
                 <div class="contact__container bd-grid">
                     <form action="" class="contact__form">
